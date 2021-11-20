@@ -1,6 +1,6 @@
-list_of_colors = ['Red', 'White', 'Black']  
-print (list_of_colors)
-colors = '-'.join(list_of_colors)
-print()
-print("All Colors: "+colors)
-print()
+ST = ''
+N = int(input("How many stings would you like to concatenate ?: "))
+for i in range(N):
+        st = input("Input sting: ")
+        ST += st
+print (ST)
