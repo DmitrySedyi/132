@@ -5,7 +5,7 @@ d2 = {}
 
 for uv in d.values():
   for key, val in d.items():
-    if uv == val:s
+    if uv == val:
       d2[key] = val
-      breaks
+      break
 print (d2)
